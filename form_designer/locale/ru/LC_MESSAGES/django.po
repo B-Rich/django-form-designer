@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-12 17:07+0600\n"
+"PO-Revision-Date: 2011-08-12 17:13+0500\n"
+"Last-Translator: Ivan Markeyev <markeev@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Poedit-Language: Russian\n"
+
+#: .\admin.py:15
+msgid "This field class requires a model."
+msgstr ""
+
+#: .\admin.py:24
+msgid "Display"
+msgstr ""
+
+#: .\admin.py:25
+#: .\defaults.py:4
+msgid "Text"
+msgstr ""
+
+#: .\admin.py:26
+msgid "Numbers"
+msgstr ""
+
+#: .\admin.py:27
+#: .\defaults.py:17
+msgid "Regex"
+msgstr ""
+
+#: .\admin.py:28
+msgid "Choices"
+msgstr ""
+
+#: .\admin.py:29
+msgid "Model Choices"
+msgstr ""
+
+#: .\admin.py:66
+msgid "Basic"
+msgstr ""
+
+#: .\admin.py:67
+msgid "Mail form"
+msgstr ""
+
+#: .\admin.py:68
+msgid "Templates"
+msgstr ""
+
+#: .\admin.py:69
+msgid "Messages"
+msgstr ""
+
+#: .\admin.py:87
+#: .\admin_views.py:36
+#: .\cms_plugins.py:10
+#: .\models.py:31
+#: .\models.py:119
+#: .\models.py:255
+msgid "Form"
+msgstr ""
+
+#: .\admin.py:92
+#: .\models.py:120
+msgid "Data"
+msgstr ""
+
+#: .\admin.py:104
+msgid "CSV export is not enabled."
+msgstr ""
+
+#: .\admin_views.py:38
+#: .\models.py:118
+msgid "Created"
+msgstr ""
+
+#: .\admin_views.py:40
+msgid "ID"
+msgstr ""
+
+#: .\defaults.py:5
+msgid "E-mail address"
+msgstr ""
+
+#: .\defaults.py:6
+msgid "Web address"
+msgstr ""
+
+#: .\defaults.py:7
+msgid "Number"
+msgstr ""
+
+#: .\defaults.py:8
+msgid "Decimal number"
+msgstr ""
+
+#: .\defaults.py:9
+msgid "Yes/No"
+msgstr ""
+
+#: .\defaults.py:10
+msgid "Date"
+msgstr ""
+
+#: .\defaults.py:11
+msgid "Date & time"
+msgstr ""
+
+#: .\defaults.py:12
+msgid "Time"
+msgstr ""
+
+#: .\defaults.py:13
+msgid "Choice"
+msgstr ""
+
+#: .\defaults.py:14
+msgid "Multiple Choice"
+msgstr ""
+
+#: .\defaults.py:15
+msgid "Model Choice"
+msgstr ""
+
+#: .\defaults.py:16
+msgid "Model Multiple Choice"
+msgstr ""
+
+#: .\defaults.py:21
+#: .\defaults.py:28
+msgid "Default"
+msgstr ""
+
+#: .\defaults.py:22
+msgid "Text area"
+msgstr ""
+
+#: .\defaults.py:23
+msgid "Password input"
+msgstr ""
+
+#: .\defaults.py:24
+msgid "Hidden input"
+msgstr ""
+
+#: .\defaults.py:29
+msgid "as paragraphs"
+msgstr ""
+
+#: .\defaults.py:30
+msgid "as table"
+msgstr ""
+
+#: .\models.py:13
+#: .\models.py:133
+msgid "Name"
+msgstr ""
+
+#: .\models.py:14
+msgid "Title"
+msgstr ""
+
+#: .\models.py:15
+msgid "Target URL"
+msgstr ""
+
+#: .\models.py:15
+msgid "If you leave this empty, the page where the form resides will be requested, and you can use the mail form and logging features. You can also send data to external sites: For instance, enter \"http://www.google.ch/search\" to create a search form."
+msgstr ""
+
+#: .\models.py:16
+msgid "Send form data to e-mail address"
+msgstr ""
+
+#: .\models.py:17
+msgid "Sender address"
+msgstr ""
+
+#: .\models.py:18
+msgid "e-Mail subject"
+msgstr ""
+
+#: .\models.py:19
+msgid "Method"
+msgstr ""
+
+#: .\models.py:20
+msgid "Success message"
+msgstr ""
+
+#: .\models.py:21
+msgid "Error message"
+msgstr ""
+
+#: .\models.py:22
+msgid "Submit button label"
+msgstr ""
+
+#: .\models.py:23
+msgid "Log form data"
+msgstr ""
+
+#: .\models.py:23
+msgid "Logs all form submissions to the database."
+msgstr ""
+
+#: .\models.py:24
+msgid "Redirect after success"
+msgstr ""
+
+#: .\models.py:24
+msgid "You should install django_notify if you want to enable this."
+msgstr ""
+
+#: .\models.py:25
+msgid "Clear form after success"
+msgstr ""
+
+#: .\models.py:26
+msgid "Allow initial values via URL"
+msgstr ""
+
+#: .\models.py:26
+msgid "If enabled, you can fill in form fields by adding them to the query string."
+msgstr ""
+
+#: .\models.py:27
+msgid "Message template"
+msgstr ""
+
+#: .\models.py:27
+msgid "Available context: \"data\" (a list containing a dictionary for each form field, each containing the elements \"name\", \"label\", \"value\")."
+msgstr ""
+
+#: .\models.py:28
+msgid "Form template"
+msgstr "Шаблоны форм"
+
+#: .\models.py:32
+msgid "Forms"
+msgstr "Формы"
+
+#: .\models.py:69
+#: .\models.py:159
+#: .\models.py:245
+msgid "Fields"
+msgstr "Поля"
+
+#: .\models.py:123
+msgid "Form log"
+msgstr "Заполненная форма"
+
+#: .\models.py:124
+msgid "Form logs"
+msgstr "Заполненные формы"
+
+#: .\models.py:130
+msgid "Field class"
+msgstr ""
+
+#: .\models.py:131
+msgid "Position"
+msgstr ""
+
+#: .\models.py:134
+msgid "Label"
+msgstr ""
+
+#: .\models.py:135
+msgid "Required"
+msgstr ""
+
+#: .\models.py:136
+msgid "Include in result"
+msgstr ""
+
+#: .\models.py:137
+msgid "Widget"
+msgstr ""
+
+#: .\models.py:138
+msgid "Initial value"
+msgstr "Значение по умолчанию"
+
+#: .\models.py:139
+msgid "Help text"
+msgstr ""
+
+#: .\models.py:141
+msgid "Values"
+msgstr ""
+
+#: .\models.py:141
+msgid "One value per line"
+msgstr ""
+
+#: .\models.py:142
+msgid "Labels"
+msgstr ""
+
+#: .\models.py:142
+msgid "One label per line"
+msgstr ""
+
+#: .\models.py:144
+msgid "Max. length"
+msgstr "Максимальная длина"
+
+#: .\models.py:145
+msgid "Min. length"
+msgstr "Минимальная длина"
+
+#: .\models.py:146
+msgid "Max. value"
+msgstr ""
+
+#: .\models.py:147
+msgid "Min. value"
+msgstr ""
+
+#: .\models.py:148
+msgid "Max. digits"
+msgstr ""
+
+#: .\models.py:149
+msgid "Decimal places"
+msgstr ""
+
+#: .\models.py:151
+msgid "Regular Expression"
+msgstr ""
+
+#: .\models.py:154
+msgid "Data model"
+msgstr ""
+
+#: .\models.py:155
+msgid "Empty label"
+msgstr ""
+
+#: .\models.py:158
+#: .\models.py:244
+msgid "Field"
+msgstr ""
+
+#: .\views.py:28
+msgid "Thank you, the data was submitted successfully."
+msgstr ""
+
+#: .\views.py:29
+msgid "The data could not be submitted, please try again."
+msgstr ""
+
+#: .\templates\admin\form_designer\formlog\change_list.html.py:9
+msgid "Export CSV"
+msgstr ""
+
+#: .\templates\html\formdefinition\forms\as_p.html.py:11
+#: .\templates\html\formdefinition\forms\as_table.html.py:13
+msgid "Submit"
+msgstr ""
+
+#: .\templatetags\friendly.py:16
+msgid "yes"
+msgstr "да"
+
+#: .\templatetags\friendly.py:16
+msgid "no"
+msgstr "нет"
+
