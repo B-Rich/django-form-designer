@@ -17,9 +17,7 @@ from form_designer.uploads import handle_uploaded_files
 
 
 def process_form(request, form_definition, extra_context={}, is_cms_plugin=False):
-    context = {}
-    if extra_context:
-        context.update(extra_context)
+    context = extra_context
     success_message = form_definition.success_message or _('Thank you, the data was submitted successfully.')
     error_message = form_definition.error_message or _('The data could not be submitted, please try again.')
     form_error = False
@@ -66,11 +64,11 @@ def process_form(request, form_definition, extra_context={}, is_cms_plugin=False
         'form_definition': form_definition
     })
     context.update(csrf(request))
-    
+
     if form_definition.display_logged:
         logs = form_definition.formlog_set.all().order_by('created')
         context.update({'logs': logs})
-        
+
     return context
 
 def _form_detail_view(request, form_definition):
@@ -85,8 +83,8 @@ def _form_detail_view(request, form_definition):
 
 def detail(request, object_name):
     form_definition = get_object_or_404(FormDefinition, name=object_name, require_hash=False)
-    return _form_detail_view(request, form_definition) 
+    return _form_detail_view(request, form_definition)
 
 def detail_by_hash(request, public_hash):
     form_definition = get_object_or_404(FormDefinition, public_hash=public_hash)
-    return _form_detail_view(request, form_definition) 
+    return _form_detail_view(request, form_definition)

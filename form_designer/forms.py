@@ -55,13 +55,7 @@ class FormDefinitionForm(forms.ModelForm):
 
     def _media(self):
         js = []
-        if hasattr(django_settings, 'CMS_MEDIA_URL'):
-            # Use jQuery bundled with django_cms if installed
-            js.append(os.path.join(django_settings.CMS_MEDIA_URL, 'js/lib/jquery.js'))
-        elif hasattr(django_settings, 'JQUERY_URL'):
-            js.append(django_settings.JQUERY_URL)
-        else:
-            js.append('%s%s' % (settings.STATIC_URL, 'js/jquery.js'))
+        js.append('%s%s' % (settings.STATIC_URL, 'js/jquery.js'))
         js.extend(
             ['%s%s' % (settings.STATIC_URL, path) for path in (
                 'js/jquery-ui.js',
