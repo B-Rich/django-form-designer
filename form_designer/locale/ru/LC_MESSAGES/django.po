@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-20 09:02+0400\n"
+"POT-Creation-Date: 2011-09-20 11:39+0400\n"
 "PO-Revision-Date: 2011-09-20 09:50+0400\n"
 "Last-Translator: Anton Novosyolov <me@f-y.name>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -64,17 +64,17 @@ msgstr "Сообщения"
 
 #: form_designer/admin.py:63 form_designer/admin.py:102
 #: form_designer/admin.py:147 form_designer/cms_plugins.py:12
-#: form_designer/models.py:60 form_designer/models.py:173
-#: form_designer/models.py:309
+#: form_designer/models.py:61 form_designer/models.py:174
+#: form_designer/models.py:310
 msgid "Form"
 msgstr "Форма"
 
-#: form_designer/admin.py:78 form_designer/models.py:174
+#: form_designer/admin.py:78 form_designer/models.py:175
 msgid "Data"
 msgstr "Данные"
 
 #: form_designer/admin.py:104 form_designer/admin.py:149
-#: form_designer/models.py:172
+#: form_designer/models.py:173
 msgid "Created"
 msgstr "Создан"
 
@@ -98,7 +98,7 @@ msgstr "Этот класс поля требует модель."
 msgid "This field class requires a model."
 msgstr "Этот класс поля требует модель."
 
-#: form_designer/models.py:35 form_designer/models.py:187
+#: form_designer/models.py:35 form_designer/models.py:188
 msgid "Name"
 msgstr "Название"
 
@@ -119,10 +119,18 @@ msgid "Body"
 msgstr "Описание (подзаголовок)"
 
 #: form_designer/models.py:41
+msgid "Body is html"
+msgstr "Описание - HTML"
+
+#: form_designer/models.py:41
+msgid "If enabled, render body as HTML."
+msgstr "Если включена, отображать описание как HTML."
+
+#: form_designer/models.py:42
 msgid "Target URL"
 msgstr "URL, куда отправлять данные формы"
 
-#: form_designer/models.py:41
+#: form_designer/models.py:42
 msgid ""
 "If you leave this empty, the page where the form resides will be "
 "requested, and you can use the mail form and logging features. You can "
@@ -135,77 +143,77 @@ msgstr ""
 " сайты: например, введите \"http://www.google.ru/search\" для создания "
 "формы поиска."
 
-#: form_designer/models.py:42
+#: form_designer/models.py:43
 msgid "Send form data to e-mail address"
 msgstr "Послать данные формы на email адрес"
 
-#: form_designer/models.py:43
+#: form_designer/models.py:44
 msgid "Sender address"
 msgstr "Адрес отправителя"
 
-#: form_designer/models.py:44
+#: form_designer/models.py:45
 msgid "e-Mail subject"
 msgstr "Тема письма"
 
-#: form_designer/models.py:45
+#: form_designer/models.py:46
 msgid "Send uploaded files as email attachments"
 msgstr "Отправить загруженные файлы как вложения"
 
-#: form_designer/models.py:46
+#: form_designer/models.py:47
 msgid "Method"
 msgstr "Метод отправки формы"
 
-#: form_designer/models.py:47
+#: form_designer/models.py:48
 msgid "Success message"
 msgstr "Сообщение при успешной отправке формы"
 
-#: form_designer/models.py:48
+#: form_designer/models.py:49
 msgid "Error message"
 msgstr "Сообщение при ошибке"
 
-#: form_designer/models.py:49
+#: form_designer/models.py:50
 msgid "Submit button label"
 msgstr "Подпись кнопки отправки формы"
 
-#: form_designer/models.py:50
+#: form_designer/models.py:51
 msgid "Log form data"
 msgstr "Сохранять в протокол данные формы"
 
-#: form_designer/models.py:50
+#: form_designer/models.py:51
 msgid "Logs all form submissions to the database."
 msgstr "Сохранять в базу данных все заполнения формы."
 
-#: form_designer/models.py:51
+#: form_designer/models.py:52
 msgid "Save uploaded files"
 msgstr "Сохранять загруженные файлы"
 
-#: form_designer/models.py:51
+#: form_designer/models.py:52
 msgid "Saves all uploaded files using server storage."
 msgstr "Сохраняет все загруженные файлы на сервер"
 
-#: form_designer/models.py:52
+#: form_designer/models.py:53
 msgid "HTTP redirect after successful submission"
 msgstr ""
 
-#: form_designer/models.py:53
+#: form_designer/models.py:54
 msgid "Clear form after successful submission"
 msgstr "Очищать форму после успешной отправки"
 
-#: form_designer/models.py:54
+#: form_designer/models.py:55
 msgid "Allow initial values via URL"
 msgstr "Позволять заполнять первоначальные значения с помощью URL"
 
-#: form_designer/models.py:54
+#: form_designer/models.py:55
 msgid ""
 "If enabled, you can fill in form fields by adding them to the query "
 "string."
 msgstr "Если включена, можно заполнять поля формы добавляя их к строке запроса"
 
-#: form_designer/models.py:55
+#: form_designer/models.py:56
 msgid "Message template"
 msgstr "Шаблон сообщения"
 
-#: form_designer/models.py:55
+#: form_designer/models.py:56
 msgid ""
 "Your form fields are available as template context. Example: \"{{ message"
 " }}\" if you have a field named `message`. To iterate over all fields, "
@@ -213,116 +221,116 @@ msgid ""
 "field, each containing the elements `name`, `label`, `value`)."
 msgstr ""
 
-#: form_designer/models.py:56
+#: form_designer/models.py:57
 msgid "Form template"
 msgstr "Шаблоны форм"
 
-#: form_designer/models.py:57
+#: form_designer/models.py:58
 msgid "Display logged submissions with form"
 msgstr ""
 
-#: form_designer/models.py:61
+#: form_designer/models.py:62
 msgid "Forms"
 msgstr "Формы"
 
-#: form_designer/models.py:116 form_designer/models.py:213
-#: form_designer/models.py:299
+#: form_designer/models.py:117 form_designer/models.py:214
+#: form_designer/models.py:300
 msgid "Fields"
 msgstr "Поля"
 
-#: form_designer/models.py:177
+#: form_designer/models.py:178
 msgid "Form log"
 msgstr "Заполненная форма"
 
-#: form_designer/models.py:178
+#: form_designer/models.py:179
 msgid "Form logs"
 msgstr "Заполненные формы"
 
-#: form_designer/models.py:184
+#: form_designer/models.py:185
 msgid "Field class"
 msgstr "Класс поля"
 
-#: form_designer/models.py:185
+#: form_designer/models.py:186
 msgid "Position"
 msgstr "Позиция"
 
-#: form_designer/models.py:188
+#: form_designer/models.py:189
 msgid "Label"
 msgstr "Подпись"
 
-#: form_designer/models.py:189
+#: form_designer/models.py:190
 msgid "Required"
 msgstr "Требуемое"
 
-#: form_designer/models.py:190
+#: form_designer/models.py:191
 msgid "Include in result"
 msgstr "Включать в результат"
 
-#: form_designer/models.py:191
+#: form_designer/models.py:192
 msgid "Widget"
 msgstr "Виджет"
 
-#: form_designer/models.py:192
+#: form_designer/models.py:193
 msgid "Initial value"
 msgstr "Значение по умолчанию"
 
-#: form_designer/models.py:193
+#: form_designer/models.py:194
 msgid "Help text"
 msgstr "Текст помощи"
 
-#: form_designer/models.py:195
+#: form_designer/models.py:196
 msgid "Values"
 msgstr "Значения"
 
-#: form_designer/models.py:195
+#: form_designer/models.py:196
 msgid "One value per line"
 msgstr "Одно значение на строку"
 
-#: form_designer/models.py:196
+#: form_designer/models.py:197
 msgid "Labels"
 msgstr "Подписи"
 
-#: form_designer/models.py:196
+#: form_designer/models.py:197
 msgid "One label per line"
 msgstr "Одна подпись на строку"
 
-#: form_designer/models.py:198
+#: form_designer/models.py:199
 msgid "Max. length"
 msgstr "Максимальная длина"
 
-#: form_designer/models.py:199
+#: form_designer/models.py:200
 msgid "Min. length"
 msgstr "Минимальная длина"
 
-#: form_designer/models.py:200
+#: form_designer/models.py:201
 msgid "Max. value"
 msgstr "Максимальное значение"
 
-#: form_designer/models.py:201
+#: form_designer/models.py:202
 msgid "Min. value"
 msgstr "Минимальное значение"
 
-#: form_designer/models.py:202
+#: form_designer/models.py:203
 msgid "Max. digits"
 msgstr ""
 
-#: form_designer/models.py:203
+#: form_designer/models.py:204
 msgid "Decimal places"
 msgstr ""
 
-#: form_designer/models.py:205
+#: form_designer/models.py:206
 msgid "Regular Expression"
 msgstr ""
 
-#: form_designer/models.py:208
+#: form_designer/models.py:209
 msgid "Data model"
 msgstr ""
 
-#: form_designer/models.py:209
+#: form_designer/models.py:210
 msgid "Empty label"
 msgstr "Пустая подпись"
 
-#: form_designer/models.py:212 form_designer/models.py:298
+#: form_designer/models.py:213 form_designer/models.py:299
 msgid "Field"
 msgstr "Поле"
 
@@ -454,3 +462,4 @@ msgstr "да"
 #: form_designer/templatetags/friendly.py:18
 msgid "no"
 msgstr "нет"
+

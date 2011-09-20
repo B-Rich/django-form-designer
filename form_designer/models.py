@@ -38,6 +38,7 @@ class FormDefinition(models.Model):
     public_hash = models.CharField(editable=False, max_length=40, default='')
     title = models.CharField(_('Title'), max_length=255, blank=True, null=True)
     body = models.TextField(_('Body'), blank=True, null=True)
+    body_html = models.BooleanField(_('Body is html'), default=False, help_text=_('If enabled, render body as HTML.'))
     action = models.URLField(_('Target URL'), help_text=_('If you leave this empty, the page where the form resides will be requested, and you can use the mail form and logging features. You can also send data to external sites: For instance, enter "http://www.google.ch/search" to create a search form.'), max_length=255, blank=True, null=True)
     mail_to = TemplateCharField(_('Send form data to e-mail address'), help_text=('Separate several addresses with a comma. Your form fields are available as template context. Example: "admin@domain.com, {{ from_email }}" if you have a field named `from_email`.'), max_length=255, blank=True, null=True)
     mail_from = TemplateCharField(_('Sender address'), max_length=255, help_text=('Your form fields are available as template context. Example: "{{ first_name }} {{ last_name }} <{{ from_email }}>" if you have fields named `first_name`, `last_name`, `from_email`.'), blank=True, null=True)
