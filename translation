@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ "$1" == "extract" ]; then pybabel extract -F babel.cfg -o django.pot --charset=utf-8 .; fi
+if [ "$1" == "init" ]; then pybabel init -D django -i django.pot -d form_designer/locale -l $2; fi
+if [ "$1" == "update" ]; then pybabel update -D django -i django.pot -d form_designer/locale; fi
+if [ "$1" == "compile" ]; then pybabel compile -D django -d form_designer/locale; fi

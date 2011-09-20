@@ -1,18 +1,17 @@
-# django-form-designer locale.
-# This file is distributed under the same license as the
-# django-form-designer package.
-# Ivan Markeyev <markeev@gmail.com>, 2011.
+# Translations template for PROJECT.
+# Copyright (C) 2011 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-09-20 09:02+0400\n"
-"PO-Revision-Date: 2011-09-20 09:50+0400\n"
-"Last-Translator: Anton Novosyolov <me@f-y.name>\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,107 +19,107 @@ msgstr ""
 
 #: form_designer/admin.py:27 form_designer/admin.py:38
 msgid "Basic"
-msgstr "Основное"
+msgstr ""
 
 #: form_designer/admin.py:28
 msgid "Display"
-msgstr "Отображение"
+msgstr ""
 
 #: form_designer/admin.py:29 form_designer/settings.py:8
 msgid "Text"
-msgstr "Текст"
+msgstr ""
 
 #: form_designer/admin.py:30
 msgid "Numbers"
-msgstr "Числа"
+msgstr ""
 
 #: form_designer/admin.py:31 form_designer/settings.py:21
 msgid "Regex"
-msgstr "Регулярное выражение"
+msgstr ""
 
 #: form_designer/admin.py:32
 msgid "Choices"
-msgstr "Варианты выбора"
+msgstr ""
 
 #: form_designer/admin.py:33
 msgid "Model Choices"
-msgstr "Варианты выбора из модели"
+msgstr ""
 
 #: form_designer/admin.py:39
 msgid "Settings"
-msgstr "Настройки"
+msgstr ""
 
 #: form_designer/admin.py:40
 msgid "Mail form"
-msgstr "Отправка формы по почте"
+msgstr ""
 
 #: form_designer/admin.py:41
 msgid "Templates"
-msgstr "Шаблоны"
+msgstr ""
 
 #: form_designer/admin.py:42
 msgid "Messages"
-msgstr "Сообщения"
+msgstr ""
 
 #: form_designer/admin.py:63 form_designer/admin.py:102
 #: form_designer/admin.py:147 form_designer/cms_plugins.py:12
 #: form_designer/models.py:60 form_designer/models.py:173
 #: form_designer/models.py:309
 msgid "Form"
-msgstr "Форма"
+msgstr ""
 
 #: form_designer/admin.py:78 form_designer/models.py:174
 msgid "Data"
-msgstr "Данные"
+msgstr ""
 
 #: form_designer/admin.py:104 form_designer/admin.py:149
 #: form_designer/models.py:172
 msgid "Created"
-msgstr "Создан"
+msgstr ""
 
 #: form_designer/admin.py:106 form_designer/admin.py:151
 msgid "ID"
-msgstr "Идентификатор"
+msgstr ""
 
 #: form_designer/admin.py:185
 msgid "CSV export is not enabled."
-msgstr "Экспорт в CSV не включен."
+msgstr ""
 
 #: form_designer/admin.py:190
 msgid "XLS export is not enabled."
-msgstr "Экспорт в CSV не включен."
+msgstr ""
 
 #: form_designer/forms.py:43
 msgid "This field class requires a regular expression."
-msgstr "Этот класс поля требует модель."
+msgstr ""
 
 #: form_designer/forms.py:48
 msgid "This field class requires a model."
-msgstr "Этот класс поля требует модель."
+msgstr ""
 
 #: form_designer/models.py:35 form_designer/models.py:187
 msgid "Name"
-msgstr "Название"
+msgstr ""
 
 #: form_designer/models.py:36
 msgid "Obfuscate URL to this form"
-msgstr "Запутать URL"
+msgstr ""
 
 #: form_designer/models.py:36
 msgid "If enabled, the form can only be reached via a secret URL."
-msgstr "Если включена, эта форма может быть отображена только по секретному URL"
+msgstr ""
 
 #: form_designer/models.py:39
 msgid "Title"
-msgstr "Заголовок"
+msgstr ""
 
 #: form_designer/models.py:40
 msgid "Body"
-msgstr "Описание (подзаголовок)"
+msgstr ""
 
 #: form_designer/models.py:41
 msgid "Target URL"
-msgstr "URL, куда отправлять данные формы"
+msgstr ""
 
 #: form_designer/models.py:41
 msgid ""
@@ -129,59 +128,54 @@ msgid ""
 "also send data to external sites: For instance, enter "
 "\"http://www.google.ch/search\" to create a search form."
 msgstr ""
-"Если оставить это поле пустым, данные отправятся на страницу, откуда "
-"форма запрошена, также можно использовать отправку формы по почте и "
-"протоколирование введенных данных. Можно также посылать данные на внешние"
-" сайты: например, введите \"http://www.google.ru/search\" для создания "
-"формы поиска."
 
 #: form_designer/models.py:42
 msgid "Send form data to e-mail address"
-msgstr "Послать данные формы на email адрес"
+msgstr ""
 
 #: form_designer/models.py:43
 msgid "Sender address"
-msgstr "Адрес отправителя"
+msgstr ""
 
 #: form_designer/models.py:44
 msgid "e-Mail subject"
-msgstr "Тема письма"
+msgstr ""
 
 #: form_designer/models.py:45
 msgid "Send uploaded files as email attachments"
-msgstr "Отправить загруженные файлы как вложения"
+msgstr ""
 
 #: form_designer/models.py:46
 msgid "Method"
-msgstr "Метод отправки формы"
+msgstr ""
 
 #: form_designer/models.py:47
 msgid "Success message"
-msgstr "Сообщение при успешной отправке формы"
+msgstr ""
 
 #: form_designer/models.py:48
 msgid "Error message"
-msgstr "Сообщение при ошибке"
+msgstr ""
 
 #: form_designer/models.py:49
 msgid "Submit button label"
-msgstr "Подпись кнопки отправки формы"
+msgstr ""
 
 #: form_designer/models.py:50
 msgid "Log form data"
-msgstr "Сохранять в протокол данные формы"
+msgstr ""
 
 #: form_designer/models.py:50
 msgid "Logs all form submissions to the database."
-msgstr "Сохранять в базу данных все заполнения формы."
+msgstr ""
 
 #: form_designer/models.py:51
 msgid "Save uploaded files"
-msgstr "Сохранять загруженные файлы"
+msgstr ""
 
 #: form_designer/models.py:51
 msgid "Saves all uploaded files using server storage."
-msgstr "Сохраняет все загруженные файлы на сервер"
+msgstr ""
 
 #: form_designer/models.py:52
 msgid "HTTP redirect after successful submission"
@@ -189,21 +183,21 @@ msgstr ""
 
 #: form_designer/models.py:53
 msgid "Clear form after successful submission"
-msgstr "Очищать форму после успешной отправки"
+msgstr ""
 
 #: form_designer/models.py:54
 msgid "Allow initial values via URL"
-msgstr "Позволять заполнять первоначальные значения с помощью URL"
+msgstr ""
 
 #: form_designer/models.py:54
 msgid ""
 "If enabled, you can fill in form fields by adding them to the query "
 "string."
-msgstr "Если включена, можно заполнять поля формы добавляя их к строке запроса"
+msgstr ""
 
 #: form_designer/models.py:55
 msgid "Message template"
-msgstr "Шаблон сообщения"
+msgstr ""
 
 #: form_designer/models.py:55
 msgid ""
@@ -215,7 +209,7 @@ msgstr ""
 
 #: form_designer/models.py:56
 msgid "Form template"
-msgstr "Шаблоны форм"
+msgstr ""
 
 #: form_designer/models.py:57
 msgid "Display logged submissions with form"
@@ -223,84 +217,84 @@ msgstr ""
 
 #: form_designer/models.py:61
 msgid "Forms"
-msgstr "Формы"
+msgstr ""
 
 #: form_designer/models.py:116 form_designer/models.py:213
 #: form_designer/models.py:299
 msgid "Fields"
-msgstr "Поля"
+msgstr ""
 
 #: form_designer/models.py:177
 msgid "Form log"
-msgstr "Заполненная форма"
+msgstr ""
 
 #: form_designer/models.py:178
 msgid "Form logs"
-msgstr "Заполненные формы"
+msgstr ""
 
 #: form_designer/models.py:184
 msgid "Field class"
-msgstr "Класс поля"
+msgstr ""
 
 #: form_designer/models.py:185
 msgid "Position"
-msgstr "Позиция"
+msgstr ""
 
 #: form_designer/models.py:188
 msgid "Label"
-msgstr "Подпись"
+msgstr ""
 
 #: form_designer/models.py:189
 msgid "Required"
-msgstr "Требуемое"
+msgstr ""
 
 #: form_designer/models.py:190
 msgid "Include in result"
-msgstr "Включать в результат"
+msgstr ""
 
 #: form_designer/models.py:191
 msgid "Widget"
-msgstr "Виджет"
+msgstr ""
 
 #: form_designer/models.py:192
 msgid "Initial value"
-msgstr "Значение по умолчанию"
+msgstr ""
 
 #: form_designer/models.py:193
 msgid "Help text"
-msgstr "Текст помощи"
+msgstr ""
 
 #: form_designer/models.py:195
 msgid "Values"
-msgstr "Значения"
+msgstr ""
 
 #: form_designer/models.py:195
 msgid "One value per line"
-msgstr "Одно значение на строку"
+msgstr ""
 
 #: form_designer/models.py:196
 msgid "Labels"
-msgstr "Подписи"
+msgstr ""
 
 #: form_designer/models.py:196
 msgid "One label per line"
-msgstr "Одна подпись на строку"
+msgstr ""
 
 #: form_designer/models.py:198
 msgid "Max. length"
-msgstr "Максимальная длина"
+msgstr ""
 
 #: form_designer/models.py:199
 msgid "Min. length"
-msgstr "Минимальная длина"
+msgstr ""
 
 #: form_designer/models.py:200
 msgid "Max. value"
-msgstr "Максимальное значение"
+msgstr ""
 
 #: form_designer/models.py:201
 msgid "Min. value"
-msgstr "Минимальное значение"
+msgstr ""
 
 #: form_designer/models.py:202
 msgid "Max. digits"
@@ -320,23 +314,23 @@ msgstr ""
 
 #: form_designer/models.py:209
 msgid "Empty label"
-msgstr "Пустая подпись"
+msgstr ""
 
 #: form_designer/models.py:212 form_designer/models.py:298
 msgid "Field"
-msgstr "Поле"
+msgstr ""
 
 #: form_designer/settings.py:9
 msgid "E-mail address"
-msgstr "Email адрес"
+msgstr ""
 
 #: form_designer/settings.py:10
 msgid "Web address"
-msgstr "Интернет адрес"
+msgstr ""
 
 #: form_designer/settings.py:11
 msgid "Number"
-msgstr "Число"
+msgstr ""
 
 #: form_designer/settings.py:12
 msgid "Decimal number"
@@ -344,113 +338,114 @@ msgstr ""
 
 #: form_designer/settings.py:13
 msgid "Yes/No"
-msgstr "Да/Нет"
+msgstr ""
 
 #: form_designer/settings.py:14
 msgid "Date"
-msgstr "Дата"
+msgstr ""
 
 #: form_designer/settings.py:15
 msgid "Date & time"
-msgstr "Дата/время"
+msgstr ""
 
 #: form_designer/settings.py:16
 msgid "Time"
-msgstr "Время"
+msgstr ""
 
 #: form_designer/settings.py:17
 msgid "Choice"
-msgstr "Выбор"
+msgstr ""
 
 #: form_designer/settings.py:18
 msgid "Multiple Choice"
-msgstr "Множественный выбор"
+msgstr ""
 
 #: form_designer/settings.py:19
 msgid "Model Choice"
-msgstr "Выбор из модели"
+msgstr ""
 
 #: form_designer/settings.py:20
 msgid "Model Multiple Choice"
-msgstr "Множественный выбор из модели"
+msgstr ""
 
 #: form_designer/settings.py:22
 msgid "File"
-msgstr "Файл"
+msgstr ""
 
 #: form_designer/settings.py:27 form_designer/settings.py:35
 msgid "Default"
-msgstr "По умолчанию"
+msgstr ""
 
 #: form_designer/settings.py:28
 msgid "Text area"
-msgstr "Текстовое поле"
+msgstr ""
 
 #: form_designer/settings.py:29
 msgid "Password input"
-msgstr "Ввод пароля"
+msgstr ""
 
 #: form_designer/settings.py:30
 msgid "Hidden input"
-msgstr "Скрытое поле"
+msgstr ""
 
 #: form_designer/settings.py:31
 msgid "Radio button"
-msgstr "Радиокнопка"
+msgstr ""
 
 #: form_designer/settings.py:36
 msgid "as paragraphs"
-msgstr "как параграфы"
+msgstr ""
 
 #: form_designer/settings.py:37
 msgid "as table"
-msgstr "как таблица"
+msgstr ""
 
 #: form_designer/settings.py:38
 msgid "as table (horizontal)"
-msgstr "как таблица (горизонтально)"
+msgstr ""
 
 #: form_designer/settings.py:39
 msgid "as unordered list"
-msgstr "как неупорядоченный список"
+msgstr ""
 
 #: form_designer/settings.py:40
 msgid "custom implementation"
-msgstr "своя реализация"
+msgstr ""
 
 #: form_designer/uploads.py:20
 msgid "This file type is not allowed."
-msgstr "Этот тип файла не разрешен."
+msgstr ""
 
 #: form_designer/uploads.py:22
 #, python-format
 msgid "Please keep file size under %s. Current size is %s."
-msgstr "Размер файла должен быть меньше %s. Текущий размер %s."
+msgstr ""
 
 #: form_designer/views.py:21
 msgid "Thank you, the data was submitted successfully."
-msgstr "Спасибо, данные отправлены успешно."
+msgstr ""
 
 #: form_designer/views.py:22
 msgid "The data could not be submitted, please try again."
-msgstr "Данные не могут быть отправлены, пожалуйста, попробуйте еще раз."
+msgstr ""
 
 #: form_designer/templates/admin/form_designer/formlog/change_list.html:9
 msgid "Export CSV"
-msgstr "Экспорт в CSV"
+msgstr ""
 
 #: form_designer/templates/admin/form_designer/formlog/change_list.html:16
 msgid "Export XLS"
-msgstr "Экспорт в XLS"
+msgstr ""
 
 #: form_designer/templates/html/formdefinition/forms/includes/submit.html:2
 msgid "Submit"
-msgstr "Отправить"
+msgstr ""
 
 #: form_designer/templatetags/friendly.py:18
 msgid "yes"
-msgstr "да"
+msgstr ""
 
 #: form_designer/templatetags/friendly.py:18
 msgid "no"
-msgstr "нет"
+msgstr ""
+
