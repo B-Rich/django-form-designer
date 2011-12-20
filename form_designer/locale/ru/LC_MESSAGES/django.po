@@ -193,7 +193,7 @@ msgstr "Сохраняет все загруженные файлы на сер�
 
 #: form_designer/models.py:53
 msgid "HTTP redirect after successful submission"
-msgstr ""
+msgstr "Перенаправлять после успешной отправки"
 
 #: form_designer/models.py:54
 msgid "Clear form after successful submission"
@@ -227,7 +227,7 @@ msgstr "Шаблоны форм"
 
 #: form_designer/models.py:58
 msgid "Display logged submissions with form"
-msgstr ""
+msgstr "Отображать запротоколированные формы с помощью формы"
 
 #: form_designer/models.py:62
 msgid "Forms"
